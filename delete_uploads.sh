@@ -2,5 +2,5 @@
 #script ejemplo de actualizacion
 #elija su distribucion
 #debian-ubuntu
-rm /home/sqleslava/Documentos/Albums/upld/src/uploads/*.pdf
+rm /home/upld/src/uploads/*.pdf
 #cd ./src/ & rm -rf uploads 
