@@ -6,8 +6,6 @@ const bodyParser = require('body-parser');
 const app = express();
 
 // cargar rutas
-//let albumRoutes = require('./routes/albums');
-//const container = require('./src/routes/container');
 const file = require('./src/routes/files');
 
 app.use(bodyParser.urlencoded({extended: false}));
@@ -24,7 +22,6 @@ app.use((req, res, next) => {
 });
 
 //rutas base
-//app.use('/', container);
 app.use('/', file);
 
 
